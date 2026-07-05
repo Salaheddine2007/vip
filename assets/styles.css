@@ -313,3 +313,22 @@ a,button{transition:background-color .25s ease,color .25s ease,border-color .25s
 .wa-float:hover{transform:scale(1.08)}
 @keyframes waFloat{0%,100%{box-shadow:0 8px 24px rgba(37,211,102,0.4)}50%{box-shadow:0 8px 30px rgba(37,211,102,0.65)}}
 @media(max-width:640px){.wa-float{bottom:1rem;right:1rem;width:52px;height:52px;font-size:1.4rem}}
+
+/* Apps compatibility showcase */
+.apps-section{background:#000;padding:5.5rem 0;text-align:center;color:#fff}
+.badge-red{display:inline-block;background:rgba(239,68,68,0.08);color:#ef4444;border:1px solid rgba(239,68,68,0.35);padding:0.4rem 1rem;border-radius:50px;font-size:0.8rem;font-weight:700;letter-spacing:0.03em}
+.apps-section h2{font-size:clamp(1.9rem,4.5vw,3rem);font-weight:800;margin:1.3rem 0;line-height:1.25;background:linear-gradient(90deg,#ef4444,#a855f7,#3b82f6);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.apps-section .lead-sub{color:rgba(255,255,255,0.55);max-width:640px;margin:0 auto 2.8rem;font-size:1rem;line-height:1.75}
+
+.apps-row{display:flex;justify-content:center;gap:3rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.app-col{text-align:center;transition:transform .2s ease}
+.app-col:hover{transform:translateY(-4px)}
+.app-name{font-weight:800;font-size:1.15rem;display:block;margin-bottom:0.35rem}
+.app-sub{color:rgba(255,255,255,0.45);font-size:0.85rem}
+
+.apps-check-bar{background:#0d0d0d;border:1px solid rgba(255,255,255,0.08);border-left:4px solid #ef4444;border-radius:12px;padding:1.1rem 1.6rem;display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;max-width:800px;margin:0 auto 1.6rem;font-weight:700;font-size:0.95rem}
+.apps-check-bar span:before{content:"✓ ";color:#fff}
+
+.apps-cta{display:flex;align-items:center;justify-content:center;gap:0.6rem;background:linear-gradient(90deg,#ef4444,#dc2626);color:#fff;font-weight:700;padding:1.1rem 2.2rem;border-radius:12px;text-decoration:none;font-size:1.05rem;max-width:800px;margin:0 auto;transition:transform .2s ease,box-shadow .25s ease}
+.apps-cta:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(239,68,68,0.35)}
+@media(max-width:640px){.apps-row{gap:1.6rem 2rem}}
