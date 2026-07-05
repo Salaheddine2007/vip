@@ -291,3 +291,25 @@ a,button{transition:background-color .25s ease,color .25s ease,border-color .25s
 .epg-foot{display:flex;gap:0.7rem;justify-content:center;margin-top:1.5rem;padding-top:1.4rem;border-top:1px solid rgba(255,255,255,0.08);flex-wrap:wrap}
 .epg-pill{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);color:rgba(255,255,255,0.85);padding:0.5rem 1.1rem;border-radius:50px;font-size:0.85rem;font-weight:700}
 .epg-pill.gold{background:rgba(255,85,0,0.12);border-color:rgba(255,85,0,0.4);color:var(--gold)}
+
+/* EPG + Privacy side-by-side */
+.epg-duo{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;text-align:center}
+.epg-col .epg-card{text-align:left;margin:2rem auto 0;max-width:none}
+@media(max-width:900px){.epg-duo{grid-template-columns:1fr}}
+
+/* Privacy card */
+.privacy-head{display:flex;align-items:center;gap:0.7rem;padding-bottom:1rem;margin-bottom:0.6rem;border-bottom:1px solid rgba(255,255,255,0.08)}
+.privacy-icon{width:38px;height:38px;border-radius:10px;background:rgba(255,85,0,0.14);border:1px solid rgba(255,85,0,0.4);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+.privacy-head .title{font-weight:800;color:#fff}
+.privacy-head .status{color:#22c55e;font-weight:700;font-size:0.85rem;display:flex;align-items:center;gap:0.4rem;margin-left:auto}
+.privacy-head .status:before{content:"";width:7px;height:7px;border-radius:50%;background:#22c55e;display:inline-block;animation:epgPulse 1.4s infinite}
+.privacy-row{display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:0.85rem 1.1rem;margin-top:0.7rem;transition:background-color .2s ease,transform .2s ease}
+.privacy-row:hover{background:rgba(255,255,255,0.06);transform:translateX(2px)}
+.privacy-row .label{color:rgba(255,255,255,0.75);font-weight:500;font-size:0.92rem}
+.privacy-row .status-ok{color:#22c55e;font-weight:700;font-size:0.88rem}
+
+/* Floating WhatsApp button */
+.wa-float{position:fixed;bottom:1.6rem;right:1.6rem;width:60px;height:60px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(37,211,102,0.4);z-index:200;font-size:1.6rem;text-decoration:none;animation:waFloat 2.4s ease-in-out infinite}
+.wa-float:hover{transform:scale(1.08)}
+@keyframes waFloat{0%,100%{box-shadow:0 8px 24px rgba(37,211,102,0.4)}50%{box-shadow:0 8px 30px rgba(37,211,102,0.65)}}
+@media(max-width:640px){.wa-float{bottom:1rem;right:1rem;width:52px;height:52px;font-size:1.4rem}}
