@@ -276,20 +276,24 @@ a,button{transition:background-color .25s ease,color .25s ease,border-color .25s
 .faq-item.open .faq-a{max-height:400px;padding:0 1.4rem 1.2rem}
 
 /* Genre showcase (replaces poster strip — no third-party copyrighted art) */
-.genre-strip{display:flex;gap:1rem;overflow-x:auto;padding-bottom:0.5rem;scroll-snap-type:x mandatory}
-.genre-strip::-webkit-scrollbar{height:6px}
-.genre-strip::-webkit-scrollbar-thumb{background:var(--border);border-radius:6px}
-.genre-card{scroll-snap-align:start;flex:0 0 160px;height:220px;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.6rem;color:#fff;font-weight:700;font-size:1rem;text-align:center;padding:1rem;animation:floatY 5s ease-in-out infinite}
+.genre-strip{overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.genre-track{display:flex;gap:1rem;width:max-content;animation:genreSlide 26s linear infinite}
+.genre-strip:hover .genre-track{animation-play-state:paused}
+@keyframes genreSlide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.genre-card{flex:0 0 160px;height:220px;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.6rem;color:#fff;font-weight:700;font-size:1rem;text-align:center;padding:1rem}
 .genre-card span.emoji{font-size:2.4rem}
-.genre-card:nth-child(1){background:linear-gradient(155deg,#D4AF37,#ff8a4d);animation-delay:0s}
-.genre-card:nth-child(2){background:linear-gradient(155deg,#0a0a0a,#333);animation-delay:.3s}
-.genre-card:nth-child(3){background:linear-gradient(155deg,#7c3aed,#a78bfa);animation-delay:.6s}
-.genre-card:nth-child(4){background:linear-gradient(155deg,#0891b2,#5eead4);animation-delay:.9s}
-.genre-card:nth-child(5){background:linear-gradient(155deg,#be123c,#fb7185);animation-delay:1.2s}
-.genre-card:nth-child(6){background:linear-gradient(155deg,#166534,#4ade80);animation-delay:1.5s}
+.genre-card:nth-child(8n+1){background:linear-gradient(155deg,#E5A80D,#F5CB4E)}
+.genre-card:nth-child(8n+2){background:linear-gradient(155deg,#0a0a0a,#333)}
+.genre-card:nth-child(8n+3){background:linear-gradient(155deg,#7c3aed,#a78bfa)}
+.genre-card:nth-child(8n+4){background:linear-gradient(155deg,#0891b2,#5eead4)}
+.genre-card:nth-child(8n+5){background:linear-gradient(155deg,#be123c,#fb7185)}
+.genre-card:nth-child(8n+6){background:linear-gradient(155deg,#166534,#4ade80)}
+.genre-card:nth-child(8n+7){background:linear-gradient(155deg,#1e293b,#475569)}
+.genre-card:nth-child(8n+8){background:linear-gradient(155deg,#9d174d,#f472b6)}
+@media(max-width:640px){.genre-card{flex:0 0 130px;height:180px}}
 
 @media(prefers-reduced-motion:reduce){
-  .reveal,.stagger-item,.hero:before,.genre-card{animation:none!important;transition:none!important;opacity:1!important;transform:none!important}
+  .reveal,.stagger-item,.hero:before,.genre-track{animation:none!important;transition:none!important;opacity:1!important;transform:none!important}
 }
 
 /* ===== EPG / Programmagids showcase (dark) ===== */
