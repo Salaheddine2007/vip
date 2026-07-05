@@ -98,7 +98,7 @@ tr:nth-child(even) td{background:rgba(0,0,0,0.015)}
 .testi .who{color:var(--text);font-weight:600;font-size:0.9rem}
 
 /* FAQ */
-.faq-item{background:#fff;border:1px solid var(--border);border-radius:12px;margin-bottom:0.9rem;overflow:hidden}
+.faq-item{background:#fff;border:1px solid var(--border);border-radius:12px;margin-bottom:0.9rem;overflow:hidden;cursor:pointer}
 .faq-q{padding:1.1rem 1.4rem;font-weight:700;color:var(--text);cursor:pointer;display:flex;justify-content:space-between;align-items:center}
 .faq-q:after{content:"+";color:var(--gold);font-size:1.3rem}
 .faq-a{padding:0 1.4rem 1.2rem;color:var(--text-muted)}
@@ -197,3 +197,71 @@ article a{color:var(--gold);text-decoration:underline}
 .footer-legal a:hover{color:var(--gold)}
 .payment-row{display:flex;flex-wrap:wrap;gap:0.6rem;justify-content:center;margin-top:1rem}
 .payment-row span{background:var(--bg-card-2);border:1px solid var(--border);border-radius:6px;padding:0.35rem 0.7rem;font-size:0.78rem;font-weight:700;color:var(--text-muted)}
+
+/* ===== Motion & smooth effects ===== */
+@keyframes heroGlow{0%,100%{opacity:0.55}50%{opacity:1}}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+
+.hero{position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,rgba(255,85,0,0.10),transparent 55%),radial-gradient(circle at 75% 60%,rgba(255,85,0,0.07),transparent 50%);animation:heroGlow 6s ease-in-out infinite;pointer-events:none}
+.hero .container{position:relative;z-index:1}
+
+a,button{transition:background-color .25s ease,color .25s ease,border-color .25s ease,transform .25s ease,box-shadow .25s ease}
+
+.nav-cta,.btn-primary,.btn-secondary,.btn-whatsapp{transition:transform .2s ease,box-shadow .25s ease,background-color .25s ease}
+.nav-cta:hover,.btn-primary:hover,.btn-whatsapp:hover{transform:translateY(-2px) scale(1.03);box-shadow:0 10px 26px rgba(255,85,0,0.25)}
+.btn-secondary:hover{transform:translateY(-2px);border-color:var(--gold);color:var(--gold)}
+.toggle-btn{transition:background-color .2s ease,color .2s ease,border-color .2s ease,transform .15s ease}
+.toggle-btn:hover{transform:translateY(-1px)}
+
+.card,.stat,.price-card,.testi,.faq-item,.split-card,.step,.legal-box,.toc,.partner-box{transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+.card:hover,.stat:hover,.testi:hover,.split-card:hover,.step:hover{transform:translateY(-6px);box-shadow:0 14px 32px rgba(10,10,10,0.08);border-color:rgba(255,85,0,0.25)}
+.price-card:hover{transform:translateY(-6px);box-shadow:0 16px 36px rgba(10,10,10,0.10)}
+.price-card.featured:hover{transform:scale(1.04) translateY(-6px)}
+
+.price-amount{display:inline-block;transition:opacity .2s ease,transform .2s ease}
+.price-amount.pulse{animation:priceSwap .35s ease}
+@keyframes priceSwap{0%{opacity:0;transform:translateY(6px)}100%{opacity:1;transform:translateY(0)}}
+
+.tag{transition:transform .2s ease,background-color .2s ease,border-color .2s ease}
+.tag:hover{transform:translateY(-2px);border-color:rgba(255,85,0,0.4)}
+
+.logo-strip span{transition:transform .2s ease,box-shadow .2s ease}
+.logo-strip span:hover{transform:translateY(-3px);box-shadow:0 6px 16px rgba(10,10,10,0.08)}
+
+/* Scroll-reveal */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.22,.9,.35,1),transform .7s cubic-bezier(.22,.9,.35,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-stagger.visible .stagger-item{opacity:1;transform:translateY(0)}
+.stagger-item{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.stagger-item:nth-child(1){transition-delay:.05s}
+.stagger-item:nth-child(2){transition-delay:.15s}
+.stagger-item:nth-child(3){transition-delay:.25s}
+.stagger-item:nth-child(4){transition-delay:.35s}
+.stagger-item:nth-child(5){transition-delay:.45s}
+.stagger-item:nth-child(6){transition-delay:.55s}
+
+/* Real FAQ accordion */
+.faq-q{transition:color .2s ease}
+.faq-q:after{content:"+";transition:transform .3s ease}
+.faq-item.open .faq-q:after{transform:rotate(45deg)}
+.faq-a{max-height:0;padding:0 1.4rem;overflow:hidden;transition:max-height .35s ease,padding .35s ease}
+.faq-item.open .faq-a{max-height:400px;padding:0 1.4rem 1.2rem}
+
+/* Genre showcase (replaces poster strip — no third-party copyrighted art) */
+.genre-strip{display:flex;gap:1rem;overflow-x:auto;padding-bottom:0.5rem;scroll-snap-type:x mandatory}
+.genre-strip::-webkit-scrollbar{height:6px}
+.genre-strip::-webkit-scrollbar-thumb{background:var(--border);border-radius:6px}
+.genre-card{scroll-snap-align:start;flex:0 0 160px;height:220px;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.6rem;color:#fff;font-weight:700;font-size:1rem;text-align:center;padding:1rem;animation:floatY 5s ease-in-out infinite}
+.genre-card span.emoji{font-size:2.4rem}
+.genre-card:nth-child(1){background:linear-gradient(155deg,#FF5500,#ff8a4d);animation-delay:0s}
+.genre-card:nth-child(2){background:linear-gradient(155deg,#0a0a0a,#333);animation-delay:.3s}
+.genre-card:nth-child(3){background:linear-gradient(155deg,#7c3aed,#a78bfa);animation-delay:.6s}
+.genre-card:nth-child(4){background:linear-gradient(155deg,#0891b2,#5eead4);animation-delay:.9s}
+.genre-card:nth-child(5){background:linear-gradient(155deg,#be123c,#fb7185);animation-delay:1.2s}
+.genre-card:nth-child(6){background:linear-gradient(155deg,#166534,#4ade80);animation-delay:1.5s}
+
+@media(prefers-reduced-motion:reduce){
+  .reveal,.stagger-item,.hero:before,.genre-card{animation:none!important;transition:none!important;opacity:1!important;transform:none!important}
+}
