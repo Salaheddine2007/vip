@@ -1,0 +1,10 @@
+{
+  "site": "iptvvip.nl",
+  "main_keyword": "iptv nederland",
+  "keywords": [
+    {"keyword": "iptv nederland", "volume": 6600, "kd": 56, "intent": "informational", "status": "published", "url": "/"},
+    {"keyword": "dutch iptv", "volume": 3600, "kd": 38, "intent": "informational", "status": "published", "url": "/blog/dutch-iptv-vergelijking/"},
+    {"keyword": "iptv kopen", "volume": 3600, "kd": 55, "intent": "transactional", "status": "published", "url": "/blog/iptv-kopen-nederland/"},
+    {"keyword": "iptv aanbieders", "volume": 1900, "kd": 59, "intent": "informational", "status": "published", "url": "/blog/beste-iptv-aanbieders/"}
+  ]
+}
