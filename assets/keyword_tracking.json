@@ -5,6 +5,7 @@
     {"keyword": "iptv nederland", "volume": 6600, "kd": 56, "intent": "informational", "status": "published", "url": "/"},
     {"keyword": "dutch iptv", "volume": 3600, "kd": 38, "intent": "informational", "status": "published", "url": "/blog/dutch-iptv-vergelijking/"},
     {"keyword": "iptv kopen", "volume": 3600, "kd": 55, "intent": "transactional", "status": "published", "url": "/blog/iptv-kopen-nederland/"},
-    {"keyword": "iptv aanbieders", "volume": 1900, "kd": 59, "intent": "informational", "status": "published", "url": "/blog/beste-iptv-aanbieders/"}
+    {"keyword": "iptv aanbieders", "volume": 1900, "kd": 59, "intent": "informational", "status": "published", "url": "/blog/beste-iptv-aanbieders/"},
+    {"keyword": "iptv abonnement nederland", "volume": 1300, "kd": 47, "intent": "transactional", "status": "published", "url": "/blog/iptv-abonnement-nederland/"}
   ]
 }
