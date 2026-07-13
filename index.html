@@ -85,8 +85,19 @@
       <a href="/contact/">Contact</a>
     </div>
     <a href="https://api.whatsapp.com/send/?phone=32497063717&text=Hoi%2C%20ik%20wil%20graag%20een%20gratis%20IPTV%20test" class="nav-cta">Gratis Proef</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu openen" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </nav>
+
+<div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true">
+  <button class="mobile-nav-close" id="mobileClose" aria-label="Menu sluiten">✕</button>
+  <a href="#pakketten">IPTV Kopen</a>
+  <a href="#prijzen">Prijzen</a>
+  <a href="/channels/">Kanalen</a>
+  <a href="/tutorial/">Tutorial</a>
+  <a href="/blog/">Blog</a>
+  <a href="/contact/">Contact</a>
+</div>
 
 <div class="hero">
   <div class="container">
@@ -564,6 +575,7 @@ function setDevices(n, btn){
   document.querySelectorAll('.epg-card').forEach(function(el){epgObserver.observe(el)});
 })();
 </script>
+<script src="/assets/nav.js" defer></script>
 
 </body>
 </html>

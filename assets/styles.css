@@ -35,7 +35,14 @@ nav{position:sticky;top:0;z-index:100;background:rgba(10,10,10,0.92);backdrop-fi
 .nav-links a:hover{color:var(--gold)}
 .nav-cta{background:var(--gold);color:#fff;padding:0.65rem 1.4rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:0.9rem}
 .nav-cta:hover{background:var(--gold-hover)}
-@media(max-width:768px){.nav-links{display:none}}
+@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}}
+.hamburger{display:none;flex-direction:column;gap:5px;padding:8px;cursor:pointer;background:none;border:none}
+.hamburger span{display:block;width:24px;height:2px;background:#fff;border-radius:2px;transition:all .3s ease}
+.mobile-nav{display:none;position:fixed;inset:0;z-index:999;background:rgba(10,10,10,0.98);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);flex-direction:column;align-items:center;justify-content:center;gap:1.6rem}
+.mobile-nav.open{display:flex}
+.mobile-nav a{font-size:1.3rem;font-weight:700;color:rgba(255,255,255,0.85);text-decoration:none}
+.mobile-nav a:hover{color:var(--gold)}
+.mobile-nav-close{position:absolute;top:20px;right:24px;font-size:1.5rem;color:#fff;cursor:pointer;background:none;border:none;padding:8px}
 
 .hero{padding:5rem 1.5rem 4rem;text-align:center;background:radial-gradient(ellipse at top,rgba(229,168,13,0.10),transparent 60%)}
 .hero h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;margin:1.2rem 0 1.2rem;line-height:1.25;color:var(--text)}
