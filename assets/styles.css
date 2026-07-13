@@ -73,8 +73,9 @@ section{padding:4rem 0}
 .card h3{font-size:1.15rem;color:var(--text);margin-bottom:0.6rem}
 .card p{color:var(--text-muted);font-size:0.95rem}
 
-.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
-@media(max-width:900px){.pricing-grid{grid-template-columns:1fr;max-width:400px;margin:0 auto}}
+.pricing-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+@media(max-width:1024px){.pricing-grid{grid-template-columns:repeat(2,1fr);max-width:640px;margin:0 auto}}
+@media(max-width:560px){.pricing-grid{grid-template-columns:1fr;max-width:400px}}
 .price-card{background:#fff;border:1px solid #e5e5e5;border-radius:16px;padding:2.2rem 1.8rem;text-align:left;position:relative;box-shadow:0 20px 45px rgba(0,0,0,0.35)}
 .price-card.featured{border-color:var(--gold);border-width:2px;box-shadow:0 20px 50px rgba(229,168,13,0.18)}
 .price-card .ribbon{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--gold);color:#fff;font-size:0.75rem;font-weight:700;padding:0.3rem 1rem;border-radius:50px}
@@ -242,10 +243,13 @@ a,button{transition:background-color .25s ease,color .25s ease,border-color .25s
 .logo-strip span{transition:transform .2s ease,box-shadow .2s ease}
 .logo-strip span:hover{transform:translateY(-3px);box-shadow:0 6px 16px rgba(10,10,10,0.08)}
 
-.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.22,.9,.35,1),transform .7s cubic-bezier(.22,.9,.35,1)}
+.reveal{opacity:1;transform:translateY(24px);transition:opacity .7s cubic-bezier(.22,.9,.35,1),transform .7s cubic-bezier(.22,.9,.35,1)}
 .reveal.visible{opacity:1;transform:translateY(0)}
 .reveal-stagger.visible .stagger-item{opacity:1;transform:translateY(0)}
-.stagger-item{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.stagger-item{opacity:1;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+/* content is always visible even before JS reveals it; only the slide-up motion is gated on scroll */
+.js .reveal{opacity:0}
+.js .stagger-item{opacity:0}
 .stagger-item:nth-child(1){transition-delay:.05s}
 .stagger-item:nth-child(2){transition-delay:.15s}
 .stagger-item:nth-child(3){transition-delay:.25s}
