@@ -209,7 +209,9 @@
       "volume": 70,
       "kd": 0,
       "intent": "",
-      "status": "pending"
+      "status": "published",
+      "posted_date": "2026-08-01",
+      "url": "/blog/watched-iptv/"
     },
     {
       "keyword": "iptv harmony",
