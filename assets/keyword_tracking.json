@@ -281,7 +281,9 @@
       "volume": 70,
       "kd": 0,
       "intent": "commercial",
-      "status": "pending"
+      "status": "published",
+      "posted_date": "2026-08-05",
+      "url": "/blog/test-iptv-free/"
     },
     {
       "keyword": "storing iptv vandaag",
