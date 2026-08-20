@@ -425,7 +425,9 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending"
+      "status": "published",
+      "posted_date": "2026-08-20",
+      "url": "/blog/iptv-installeren/"
     },
     {
       "keyword": "iptv install",
