@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://iptvvip.nl/</loc><lastmod>2026-08-20</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://iptvvip.nl/blog/</loc><lastmod>2026-08-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://iptvvip.nl/blog/dutch-iptv-vergelijking/</loc><lastmod>2026-07-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://iptvvip.nl/blog/iptv-kopen-nederland/</loc><lastmod>2026-07-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://iptvvip.nl/blog/beste-iptv-aanbieders/</loc><lastmod>2026-07-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://iptvvip.nl/blog/iptv-abonnement-nederland/</loc><lastmod>2026-07-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/</loc><lastmod>2026-08-21</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://iptvvip.nl/blog/</loc><lastmod>2026-08-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://iptvvip.nl/blog/dutch-iptv-vergelijking/</loc><lastmod>2026-08-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/blog/iptv-kopen-nederland/</loc><lastmod>2026-08-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/blog/beste-iptv-aanbieders/</loc><lastmod>2026-08-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/blog/iptv-abonnement-nederland/</loc><lastmod>2026-08-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/hot-iptv-app/</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/iptv-proefabonnement/</loc><lastmod>2026-07-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/cody-iptv/</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -49,6 +49,7 @@
   <url><loc>https://iptvvip.nl/blog/iptv-list-mu3/</loc><lastmod>2026-08-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/my-tv-iptv/</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/iptv-installeren/</loc><lastmod>2026-08-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/blog/iptv-install/</loc><lastmod>2026-08-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/tutorial/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/channels/</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/contact/</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>

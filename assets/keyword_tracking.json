@@ -434,7 +434,9 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending"
+      "status": "published",
+      "posted_date": "2026-08-21",
+      "url": "/blog/iptv-install/"
     },
     {
       "keyword": "iptv inloggen",
