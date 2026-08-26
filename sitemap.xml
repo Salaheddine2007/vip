@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://iptvvip.nl/</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://iptvvip.nl/blog/</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://iptvvip.nl/</loc><lastmod>2026-08-26</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://iptvvip.nl/blog/</loc><lastmod>2026-08-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://iptvvip.nl/blog/dutch-iptv-vergelijking/</loc><lastmod>2026-08-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/blog/iptv-kopen-nederland/</loc><lastmod>2026-08-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/blog/beste-iptv-aanbieders/</loc><lastmod>2026-08-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/blog/iptv-abonnement-nederland/</loc><lastmod>2026-08-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/hot-iptv-app/</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/iptv-proefabonnement/</loc><lastmod>2026-07-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/cody-iptv/</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -50,6 +54,7 @@
   <url><loc>https://iptvvip.nl/blog/yacine-player-tv-m3u-iptv/</loc><lastmod>2026-08-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/liste-m3u-iptv/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/blog/iptv-list-m3u8/</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iptvvip.nl/blog/iptv-links-m3u/</loc><lastmod>2026-08-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/tutorial/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/channels/</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://iptvvip.nl/contact/</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
