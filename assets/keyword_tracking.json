@@ -535,7 +535,9 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending"
+      "status": "published",
+      "posted_date": "2026-09-01",
+      "url": "/blog/iptv-m3u-list/"
     },
     {
       "keyword": "iptv weer in de lucht",
