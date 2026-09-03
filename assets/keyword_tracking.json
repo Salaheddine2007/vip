@@ -586,8 +586,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-09-03",
+      "url": "/blog/iptv-proefperiode/"
     },
     {
       "keyword": "xtream iptv pc",
