@@ -596,8 +596,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "posted_date": "2026-09-03",
+      "url": "/blog/xtream-iptv-pc/"
     },
     {
       "keyword": "iptv m3u links",
