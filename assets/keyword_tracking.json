@@ -616,8 +616,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "beste-iptv-aanbieders"
+      "status": "published",
+      "trunk": "beste-iptv-aanbieders",
+      "posted_date": "2026-09-04",
+      "url": "/blog/iptv-beste-aanbieder/"
     },
     {
       "keyword": "iptv box formuler",
