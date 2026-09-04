@@ -606,8 +606,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "posted_date": "2026-09-04",
+      "url": "/blog/iptv-m3u-links/"
     },
     {
       "keyword": "iptv beste aanbieder",
