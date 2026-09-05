@@ -636,7 +636,9 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
+      "status": "published",
+      "posted_date": "2026-09-05",
+      "url": "/blog/iptv-bayilik/",
       "trunk": "general"
     },
     {
