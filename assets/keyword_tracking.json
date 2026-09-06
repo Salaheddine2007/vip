@@ -646,7 +646,9 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
+      "status": "published",
+      "posted_date": "2026-09-06",
+      "url": "/blog/livego-club-8080-iptv/",
       "trunk": "general"
     },
     {
