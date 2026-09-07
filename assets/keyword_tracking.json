@@ -9,7 +9,8 @@
       "intent": "informational",
       "status": "published",
       "url": "/blog/dutch-iptv-vergelijking/",
-      "trunk": "homepage"
+      "trunk": "homepage",
+      "posted_date": "2026-08-04"
     },
     {
       "keyword": "iptv aanbieders",
@@ -18,7 +19,8 @@
       "intent": "informational",
       "status": "published",
       "url": "/blog/beste-iptv-aanbieders/",
-      "trunk": "homepage"
+      "trunk": "homepage",
+      "posted_date": "2026-08-04"
     },
     {
       "keyword": "iptv abonnement nederland",
@@ -27,7 +29,8 @@
       "intent": "informational",
       "status": "published",
       "url": "/blog/iptv-abonnement-nederland/",
-      "trunk": "buying_providers"
+      "trunk": "buying_providers",
+      "posted_date": "2026-08-04"
     },
     {
       "keyword": "hot iptv app",
@@ -666,7 +669,9 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
+      "status": "published",
+      "posted_date": "2026-09-07",
+      "url": "/blog/link-iptv-m3u/",
       "trunk": "apps_players"
     },
     {
