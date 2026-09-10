@@ -739,8 +739,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "url": "/blog/ibo-iptv-player/",
+      "trunk": "apps_players",
+      "posted_date": "2026-09-10"
     },
     {
       "keyword": "i player iptv",
