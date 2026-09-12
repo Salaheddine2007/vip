@@ -779,8 +779,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "url": "/blog/iptv-almanya/",
+      "trunk": "general",
+      "posted_date": "2026-09-12"
     },
     {
       "keyword": "gratis iptv apps",
