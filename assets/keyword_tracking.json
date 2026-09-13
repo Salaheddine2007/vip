@@ -799,16 +799,19 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "skipped",
+      "trunk": "apps_players",
+      "note": "skipped: adult content, not appropriate for automated SEO publishing"
     },
     {
       "keyword": "hot iptv app kosten",
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "pricing"
+      "status": "published",
+      "trunk": "pricing",
+      "posted_date": "2026-09-13",
+      "url": "/blog/hot-iptv-app-kosten/"
     },
     {
       "keyword": "howto.iptv.app",
