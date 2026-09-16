@@ -868,8 +868,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "buying_providers"
+      "status": "published",
+      "trunk": "buying_providers",
+      "posted_date": "2026-09-16",
+      "url": "/blog/iptv-tv-abonnement/"
     },
     {
       "keyword": "iptv totaal kijken",
