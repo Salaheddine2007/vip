@@ -908,7 +908,9 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
+      "status": "published",
+      "posted_date": "2026-09-18",
+      "url": "/blog/aurora-iptv/",
       "trunk": "general"
     },
     {
