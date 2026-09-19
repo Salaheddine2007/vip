@@ -918,8 +918,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-09-19",
+      "url": "/blog/link-mu3-iptv/"
     },
     {
       "keyword": "iptv epg",
