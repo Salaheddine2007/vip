@@ -928,8 +928,10 @@
       "volume": 50,
       "kd": 0,
       "intent": "informational",
-      "status": "pending",
-      "trunk": "troubleshooting"
+      "status": "published",
+      "trunk": "troubleshooting",
+      "posted_date": "2026-09-20",
+      "url": "/blog/iptv-epg/"
     },
     {
       "keyword": "abbo iptv",
