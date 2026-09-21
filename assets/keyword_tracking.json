@@ -958,16 +958,19 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "skipped",
+      "trunk": "general",
+      "note": "skipped: reseller/panel content facilitates unauthorized IPTV reselling, not appropriate for automated SEO publishing"
     },
     {
       "keyword": "net iptv eu",
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-09-21",
+      "url": "/blog/net-iptv-eu/"
     },
     {
       "keyword": "iptv player smart tv pro",
