@@ -1017,8 +1017,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "informational",
-      "status": "pending",
-      "trunk": "beste-iptv-aanbieders"
+      "status": "published",
+      "trunk": "beste-iptv-aanbieders",
+      "posted_date": "2026-09-24",
+      "url": "/blog/beste-iptv-kastje-2024/"
     },
     {
       "keyword": "iptv mytv",
