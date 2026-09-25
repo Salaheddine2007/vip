@@ -1037,8 +1037,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "informational",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-09-25",
+      "url": "/blog/free-iptv-trial/"
     },
     {
       "keyword": "diamond 4k iptv",
