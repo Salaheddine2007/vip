@@ -1047,8 +1047,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-09-25",
+      "url": "/blog/diamond-4k-iptv/"
     },
     {
       "keyword": "iptv storing vandaag",
