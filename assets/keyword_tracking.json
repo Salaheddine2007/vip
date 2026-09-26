@@ -1067,8 +1067,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "url": "/blog/iptv-specialist/",
+      "posted_date": "2026-09-26"
     },
     {
       "keyword": "kodi addon for iptv",
