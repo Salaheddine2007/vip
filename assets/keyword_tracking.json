@@ -1077,8 +1077,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "setup_install"
+      "status": "published",
+      "trunk": "setup_install",
+      "posted_date": "2026-09-27",
+      "url": "/blog/kodi-addon-for-iptv/"
     },
     {
       "keyword": "ott navigator iptv",
