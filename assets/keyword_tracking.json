@@ -1117,8 +1117,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "posted_date": "2026-09-29",
+      "url": "/blog/iptv-org-playlist/"
     },
     {
       "keyword": "family iptv",
