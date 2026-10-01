@@ -1167,8 +1167,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "posted_date": "2026-10-01",
+      "url": "/blog/mac-iptv-player-apk/"
     },
     {
       "keyword": "cf business cdn me iptv",
