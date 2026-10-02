@@ -1177,16 +1177,19 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "skipped",
+      "trunk": "general",
+      "note": "skipped: CDN/panel infrastructure keyword, not suitable for consumer SEO article"
     },
     {
       "keyword": "best iptv apps for tv",
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-02",
+      "url": "/blog/best-iptv-apps-for-tv/"
     },
     {
       "keyword": "iptv spanje",
