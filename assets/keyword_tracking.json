@@ -1246,8 +1246,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "buying_providers"
+      "status": "published",
+      "trunk": "buying_providers",
+      "posted_date": "2026-10-05",
+      "url": "/blog/iptv-smarters-pro-abonnement/"
     },
     {
       "keyword": "4k iptv vip review",
