@@ -1266,8 +1266,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-06",
+      "url": "/blog/smart-one-iptv-app/"
     },
     {
       "keyword": "iptv dark review",
