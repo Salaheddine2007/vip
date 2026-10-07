@@ -1276,8 +1276,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "informational",
-      "status": "pending",
-      "trunk": "reviews_comparisons"
+      "status": "published",
+      "trunk": "reviews_comparisons",
+      "posted_date": "2026-10-07",
+      "url": "/blog/iptv-dark-review/"
     },
     {
       "keyword": "smart iptv abo",
