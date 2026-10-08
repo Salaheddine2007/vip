@@ -1296,8 +1296,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "informational",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-08",
+      "url": "/blog/iptv-kijken-via-chromecast/"
     },
     {
       "keyword": "playlist iptv arabic",
