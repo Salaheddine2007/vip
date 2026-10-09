@@ -1316,16 +1316,19 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "skipped",
+      "trunk": "general",
+      "note": "skipped: nonsensical code keyword, not suitable for consumer SEO article"
     },
     {
       "keyword": "iptv installation",
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-09",
+      "url": "/blog/iptv-installation/"
     },
     {
       "keyword": "iptv buy cheap",
