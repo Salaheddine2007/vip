@@ -1355,8 +1355,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "devices_boxes"
+      "status": "published",
+      "trunk": "devices_boxes",
+      "posted_date": "2026-10-10",
+      "url": "/blog/iptv-box-forum/"
     },
     {
       "keyword": "iptv dark reviews",
