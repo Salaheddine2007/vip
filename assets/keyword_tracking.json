@@ -1445,8 +1445,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-15",
+      "url": "/blog/iptv-den-haag/"
     },
     {
       "keyword": "televizio iptv",
