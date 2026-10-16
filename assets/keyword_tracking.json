@@ -1465,8 +1465,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-16",
+      "url": "/blog/iptv-dark-uit-de-lucht/"
     },
     {
       "keyword": "yourflix iptv",
