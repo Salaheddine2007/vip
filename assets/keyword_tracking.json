@@ -1485,8 +1485,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-17",
+      "url": "/blog/worldwide-iptv/"
     },
     {
       "keyword": "iptv down",
