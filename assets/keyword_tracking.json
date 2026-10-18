@@ -1505,16 +1505,19 @@
       "volume": 40,
       "kd": 0,
       "intent": "informational",
-      "status": "pending",
-      "trunk": "general"
+      "status": "skipped",
+      "trunk": "general",
+      "note": "skipped: IPTV hosting/panel content facilitates unauthorized IPTV reselling, not appropriate for automated SEO publishing"
     },
     {
       "keyword": "gratis iptv speler",
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-18",
+      "url": "/blog/gratis-iptv-speler/"
     },
     {
       "keyword": "iptv smarters pro inloggen",
