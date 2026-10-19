@@ -1534,16 +1534,19 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "skipped",
+      "trunk": "general",
+      "note": "skipped: third-party panel/domain keyword, not suitable for consumer SEO article"
     },
     {
       "keyword": "iptv 4k co review",
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "reviews_comparisons"
+      "status": "published",
+      "trunk": "reviews_comparisons",
+      "posted_date": "2026-10-19",
+      "url": "/blog/iptv-4k-co-review/"
     },
     {
       "keyword": "https iptv org github io iptv index m3u",
