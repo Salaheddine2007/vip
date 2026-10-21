@@ -1593,16 +1593,19 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "iptv-legaal-nederland"
+      "status": "skipped",
+      "trunk": "iptv-legaal-nederland",
+      "note": "skipped: promotes illegal content, not appropriate for automated SEO publishing"
     },
     {
       "keyword": "hakuna iptv storing",
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "troubleshooting"
+      "status": "published",
+      "trunk": "troubleshooting",
+      "posted_date": "2026-10-21",
+      "url": "/blog/hakuna-iptv-storing/"
     },
     {
       "keyword": "iptv m3u lijsten 2025",
