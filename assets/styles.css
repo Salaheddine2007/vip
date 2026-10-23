@@ -330,3 +330,6 @@ a,button{transition:background-color .25s ease,color .25s ease,border-color .25s
 .apps-cta{display:flex;align-items:center;justify-content:center;gap:0.6rem;background:linear-gradient(90deg,var(--gold),var(--gold-hover));color:#fff;font-weight:700;padding:1.1rem 2.2rem;border-radius:12px;text-decoration:none;font-size:1.05rem;max-width:800px;margin:0 auto;transition:transform .2s ease,box-shadow .25s ease}
 .apps-cta:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(229,168,13,0.35)}
 @media(max-width:640px){.apps-row{gap:1.6rem 2rem}}
+
+/* Mobile: wide comparison tables scroll inside their own box instead of widening the page */
+@media (max-width:760px){.compare-table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}}
