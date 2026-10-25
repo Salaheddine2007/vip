@@ -1682,8 +1682,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "informational",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-25",
+      "url": "/blog/pandora-iptv-reviews/"
     },
     {
       "keyword": "pandora iptv offline",
