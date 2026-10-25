@@ -1672,8 +1672,10 @@
       "volume": 40,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "beste-iptv-aanbieders"
+      "status": "published",
+      "trunk": "beste-iptv-aanbieders",
+      "posted_date": "2026-10-25",
+      "url": "/blog/iptv-abonnement-beste/"
     },
     {
       "keyword": "pandora iptv reviews",
