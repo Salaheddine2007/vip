@@ -1712,8 +1712,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-27",
+      "url": "/blog/iptv-italiane/"
     },
     {
       "keyword": "iptv kastje mediamarkt",
