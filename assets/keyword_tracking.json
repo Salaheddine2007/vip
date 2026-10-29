@@ -1762,8 +1762,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-10-29",
+      "url": "/blog/iptv-inclusief-netflix/"
     },
     {
       "keyword": "iptv kastje xsarius",
