@@ -1772,8 +1772,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "devices_boxes"
+      "status": "published",
+      "trunk": "devices_boxes",
+      "posted_date": "2026-10-30",
+      "url": "/blog/iptv-kastje-xsarius/"
     },
     {
       "keyword": "iptv illegaal of legaal",
