@@ -1782,8 +1782,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "iptv-legaal-nederland"
+      "status": "published",
+      "trunk": "iptv-legaal-nederland",
+      "posted_date": "2026-10-30",
+      "url": "/blog/iptv-illegaal-of-legaal/"
     },
     {
       "keyword": "iptv in spanje",
