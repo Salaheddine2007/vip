@@ -1812,8 +1812,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "iptv-kopen-nederland"
+      "status": "published",
+      "trunk": "iptv-kopen-nederland",
+      "posted_date": "2026-11-01",
+      "url": "/blog/iptv-kopen-nl/"
     },
     {
       "keyword": "iptv in germany",
