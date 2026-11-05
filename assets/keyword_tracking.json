@@ -1901,8 +1901,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "posted_date": "2026-11-05",
+      "url": "/blog/iptv-player-pro-windows/"
     },
     {
       "keyword": "iptv pfsense",
