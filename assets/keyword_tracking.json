@@ -1921,16 +1921,19 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "skipped",
+      "trunk": "general",
+      "note": "skipped: reseller/panel content facilitates unauthorized IPTV reselling, not appropriate for automated SEO publishing"
     },
     {
       "keyword": "iptv player gratis android",
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "posted_date": "2026-11-06",
+      "url": "/blog/iptv-player-gratis-android/"
     },
     {
       "keyword": "iptv player opus",
