@@ -1940,8 +1940,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "posted_date": "2026-11-06",
+      "url": "/blog/iptv-player-opus/"
     },
     {
       "keyword": "iptv player nova pro",
