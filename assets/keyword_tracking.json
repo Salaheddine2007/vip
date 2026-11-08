@@ -1970,8 +1970,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "iptv-legaal-nederland"
+      "status": "published",
+      "trunk": "iptv-legaal-nederland",
+      "posted_date": "2026-11-08",
+      "url": "/blog/iptv-provider-illegal/"
     },
     {
       "keyword": "iptv reseller panel",
