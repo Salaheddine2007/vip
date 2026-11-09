@@ -1980,8 +1980,9 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "skipped",
+      "trunk": "general",
+      "note": "skipped: reseller/panel content facilitates unauthorized IPTV reselling, not appropriate for automated SEO publishing"
     },
     {
       "keyword": "iptv set box",
@@ -1998,24 +1999,29 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "skipped",
+      "trunk": "general",
+      "note": "skipped: reseller/panel content facilitates unauthorized IPTV reselling, not appropriate for automated SEO publishing"
     },
     {
       "keyword": "iptv promo",
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-11-09",
+      "url": "/blog/iptv-promo/"
     },
     {
       "keyword": "iptv poland",
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-11-09",
+      "url": "/blog/iptv-poland/"
     },
     {
       "keyword": "iptv prof com",
