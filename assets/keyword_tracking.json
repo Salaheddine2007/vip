@@ -2036,8 +2036,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-11-10",
+      "url": "/blog/iptv-pro-tv/"
     },
     {
       "keyword": "iptv met terugkijk functie",
