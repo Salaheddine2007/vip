@@ -2138,16 +2138,19 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "skipped",
+      "trunk": "apps_players",
+      "note": "skipped: free sports channel list content, not appropriate for automated SEO publishing"
     },
     {
       "keyword": "iptv link m3u apk",
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "posted_date": "2026-11-16",
+      "url": "/blog/iptv-link-m3u-apk/"
     },
     {
       "keyword": "iptv opgerold 2025",
