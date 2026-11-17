@@ -2167,8 +2167,10 @@
       "volume": 30,
       "kd": 0,
       "intent": "",
-      "status": "pending",
-      "trunk": "general"
+      "status": "published",
+      "trunk": "general",
+      "posted_date": "2026-11-17",
+      "url": "/blog/iptv-on-samsung/"
     },
     {
       "keyword": "iptv ott player",
